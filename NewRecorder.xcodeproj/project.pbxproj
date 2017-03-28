@@ -441,7 +441,7 @@
 			);
 			name = NewRecorder;
 			productName = NewRecorder;
-			productReference = E51E491A1E89D8CE00A773B7 /* NewRecorder.app */;
+			productReference = E52D63C51E8A2A7400BDCA6C /* NewRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E51E49321E89D8CE00A773B7 /* NewRecorderTests */ = {
@@ -459,7 +459,7 @@
 			);
 			name = NewRecorderTests;
 			productName = NewRecorderTests;
-			productReference = E51E49331E89D8CE00A773B7 /* NewRecorderTests.xctest */;
+			productReference = E52D63C61E8A2A7400BDCA6C /* NewRecorderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E51E493D1E89D8CE00A773B7 /* NewRecorderUITests */ = {
@@ -477,7 +477,7 @@
 			);
 			name = NewRecorderUITests;
 			productName = NewRecorderUITests;
-			productReference = E51E493E1E89D8CE00A773B7 /* NewRecorderUITests.xctest */;
+			productReference = E52D63C71E8A2A7400BDCA6C /* NewRecorderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
