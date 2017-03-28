@@ -13,8 +13,6 @@
 		E51E49281E89D8CE00A773B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51E49261E89D8CE00A773B7 /* Main.storyboard */; };
 		E51E492A1E89D8CE00A773B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51E49291E89D8CE00A773B7 /* Assets.xcassets */; };
 		E51E492D1E89D8CE00A773B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51E492B1E89D8CE00A773B7 /* LaunchScreen.storyboard */; };
-		E51E49381E89D8CE00A773B7 /* NewRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E51E49371E89D8CE00A773B7 /* NewRecorderTests.m */; };
-		E51E49431E89D8CE00A773B7 /* NewRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E51E49421E89D8CE00A773B7 /* NewRecorderUITests.m */; };
 		E52D63A61E8A212E00BDCA6C /* CacheUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D637D1E8A212E00BDCA6C /* CacheUtil.m */; };
 		E52D63A71E8A212E00BDCA6C /* CheckNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D637F1E8A212E00BDCA6C /* CheckNetwork.m */; };
 		E52D63A81E8A212E00BDCA6C /* CheckVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D63811E8A212E00BDCA6C /* CheckVersion.m */; };
@@ -87,10 +85,6 @@
 		E51E49291E89D8CE00A773B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E51E492C1E89D8CE00A773B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E51E492E1E89D8CE00A773B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E51E49371E89D8CE00A773B7 /* NewRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewRecorderTests.m; sourceTree = "<group>"; };
-		E51E49391E89D8CE00A773B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E51E49421E89D8CE00A773B7 /* NewRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewRecorderUITests.m; sourceTree = "<group>"; };
-		E51E49441E89D8CE00A773B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52D637B1E8A212E00BDCA6C /* BasicInfo_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicInfo_define.h; sourceTree = "<group>"; };
 		E52D637C1E8A212E00BDCA6C /* CacheUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheUtil.h; sourceTree = "<group>"; };
 		E52D637D1E8A212E00BDCA6C /* CacheUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheUtil.m; sourceTree = "<group>"; };
@@ -217,8 +211,6 @@
 				E52D63491E8A212E00BDCA6C /* ThirdParty */,
 				E52D637A1E8A212E00BDCA6C /* UTILS */,
 				E51E491C1E89D8CE00A773B7 /* NewRecorder */,
-				E51E49361E89D8CE00A773B7 /* NewRecorderTests */,
-				E51E49411E89D8CE00A773B7 /* NewRecorderUITests */,
 				E52D63AE1E8A226B00BDCA6C /* Frameworks */,
 				E5E5889F1E8A3CE80000BB63 /* NewRecorder.app */,
 			);
@@ -246,24 +238,6 @@
 				E51E491E1E89D8CE00A773B7 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E51E49361E89D8CE00A773B7 /* NewRecorderTests */ = {
-			isa = PBXGroup;
-			children = (
-				E51E49371E89D8CE00A773B7 /* NewRecorderTests.m */,
-				E51E49391E89D8CE00A773B7 /* Info.plist */,
-			);
-			path = NewRecorderTests;
-			sourceTree = "<group>";
-		};
-		E51E49411E89D8CE00A773B7 /* NewRecorderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E51E49421E89D8CE00A773B7 /* NewRecorderUITests.m */,
-				E51E49441E89D8CE00A773B7 /* Info.plist */,
-			);
-			path = NewRecorderUITests;
 			sourceTree = "<group>";
 		};
 		E52D63491E8A212E00BDCA6C /* ThirdParty */ = {
@@ -544,7 +518,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51E49381E89D8CE00A773B7 /* NewRecorderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +525,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51E49431E89D8CE00A773B7 /* NewRecorderUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
