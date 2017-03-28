@@ -17,6 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
+        ViewController *main = [[ViewController alloc]init];
+        main.view.backgroundColor = [UIColor whiteColor];
+        
+        self.window.rootViewController = main;
+    
     // Override point for customization after application launch.
     return YES;
 }
