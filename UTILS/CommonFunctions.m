@@ -24,7 +24,7 @@ static NSDictionary *domainInfo;
 + (void) backAction:(UINavigationController *)navigationcontroller
 {
     CATransition *animation = [CATransition animation];
-    animation.delegate = self;
+//    animation.delegate = self;
     animation.duration = 0.5;
     animation.timingFunction = UIViewAnimationCurveEaseInOut;
     animation.type = kCATransitionFade;
@@ -33,6 +33,7 @@ static NSDictionary *domainInfo;
     [navigationcontroller.view.layer addAnimation:animation forKey:nil];
     [navigationcontroller popViewControllerAnimated:NO];
 }
+
 
 #pragma mark-判断ios版本号
 + (NSString *)getVersion
