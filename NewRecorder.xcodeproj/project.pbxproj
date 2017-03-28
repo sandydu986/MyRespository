@@ -80,7 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E51E491A1E89D8CE00A773B7 /* NewRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51E491A1E89D8CE00A773B7 /* NewRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NewRecorder.app; path = "/Users/dutiger/GIT/MyRespository/build/Debug-iphoneos/NewRecorder.app"; sourceTree = "<absolute>"; };
 		E51E491E1E89D8CE00A773B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E51E49201E89D8CE00A773B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E51E49211E89D8CE00A773B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -223,7 +223,6 @@
 				E51E491C1E89D8CE00A773B7 /* NewRecorder */,
 				E51E49361E89D8CE00A773B7 /* NewRecorderTests */,
 				E51E49411E89D8CE00A773B7 /* NewRecorderUITests */,
-				E51E491B1E89D8CE00A773B7 /* Products */,
 				E52D63AE1E8A226B00BDCA6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -517,7 +516,7 @@
 				Base,
 			);
 			mainGroup = E51E49111E89D8CE00A773B7;
-			productRefGroup = E51E491B1E89D8CE00A773B7 /* Products */;
+			productRefGroup = E51E49111E89D8CE00A773B7;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
