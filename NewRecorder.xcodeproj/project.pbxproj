@@ -80,7 +80,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E51E491A1E89D8CE00A773B7 /* NewRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NewRecorder.app; path = "/Users/dutiger/GIT/MyRespository/build/Debug-iphoneos/NewRecorder.app"; sourceTree = "<absolute>"; };
 		E51E491E1E89D8CE00A773B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E51E49201E89D8CE00A773B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E51E49211E89D8CE00A773B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -178,9 +177,9 @@
 		E52D63BF1E8A22CE00BDCA6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E52D63C11E8A24AE00BDCA6C /* photoBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photoBtn@2x.png"; sourceTree = "<group>"; };
 		E52D63C21E8A24AE00BDCA6C /* startBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startBtn@2x.png"; sourceTree = "<group>"; };
-		E52D63C51E8A2A7400BDCA6C /* NewRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E52D63C61E8A2A7400BDCA6C /* NewRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NewRecorderTests.xctest; path = "/Users/dutiger/GIT/MyRespository/build/Debug-iphoneos/NewRecorderTests.xctest"; sourceTree = "<absolute>"; };
-		E52D63C71E8A2A7400BDCA6C /* NewRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NewRecorderUITests.xctest; path = "/Users/dutiger/GIT/MyRespository/build/Debug-iphoneos/NewRecorderUITests.xctest"; sourceTree = "<absolute>"; };
+		E52D63CB1E8A2CC200BDCA6C /* NewRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52D63CC1E8A2CC200BDCA6C /* NewRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NewRecorderTests.xctest; path = "/Users/dutiger/GIT/MyRespository/build/Debug-iphoneos/NewRecorderTests.xctest"; sourceTree = "<absolute>"; };
+		E52D63CD1E8A2CC200BDCA6C /* NewRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NewRecorderUITests.xctest; path = "/Users/dutiger/GIT/MyRespository/build/Debug-iphoneos/NewRecorderUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,7 +440,7 @@
 			);
 			name = NewRecorder;
 			productName = NewRecorder;
-			productReference = E52D63C51E8A2A7400BDCA6C /* NewRecorder.app */;
+			productReference = E52D63CB1E8A2CC200BDCA6C /* NewRecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E51E49321E89D8CE00A773B7 /* NewRecorderTests */ = {
@@ -583,7 +582,7 @@
 				E52D63AD1E8A212E00BDCA6C /* TapTabBarItemView.m in Sources */,
 				E52D638E1E8A212E00BDCA6C /* openUDID.m in Sources */,
 				E52D63AA1E8A212E00BDCA6C /* CommonFunctions.m in Sources */,
-				E52D63A51E8A212E00BDCA6C /* FXLabel.m in Sources */,
+				E52D63A51E8A212E00BDCA6C /* (null) in Sources */,
 				E52D63921E8A212E00BDCA6C /* ASIAuthenticationDialog.m in Sources */,
 				E52D63A81E8A212E00BDCA6C /* CheckVersion.m in Sources */,
 				E52D63931E8A212E00BDCA6C /* ASIDataCompressor.m in Sources */,
