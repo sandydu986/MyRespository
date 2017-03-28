@@ -178,6 +178,9 @@
 		E52D63BF1E8A22CE00BDCA6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E52D63C11E8A24AE00BDCA6C /* photoBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photoBtn@2x.png"; sourceTree = "<group>"; };
 		E52D63C21E8A24AE00BDCA6C /* startBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startBtn@2x.png"; sourceTree = "<group>"; };
+		E52D63C51E8A2A7400BDCA6C /* NewRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52D63C61E8A2A7400BDCA6C /* NewRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NewRecorderTests.xctest; path = "/Users/dutiger/GIT/MyRespository/build/Debug-iphoneos/NewRecorderTests.xctest"; sourceTree = "<absolute>"; };
+		E52D63C71E8A2A7400BDCA6C /* NewRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NewRecorderUITests.xctest; path = "/Users/dutiger/GIT/MyRespository/build/Debug-iphoneos/NewRecorderUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,8 +380,6 @@
 		E52D63771E8A212E00BDCA6C /* UILibrary */ = {
 			isa = PBXGroup;
 			children = (
-				E52D63781E8A212E00BDCA6C /* FXLabel.h */,
-				E52D63791E8A212E00BDCA6C /* FXLabel.m */,
 			);
 			path = UILibrary;
 			sourceTree = "<group>";
