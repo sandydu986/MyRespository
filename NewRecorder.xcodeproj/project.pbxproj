@@ -32,8 +32,6 @@
 		E52D63BC1E8A22BD00BDCA6C /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52D63BB1E8A22BD00BDCA6C /* libz.1.2.5.tbd */; };
 		E52D63BE1E8A22C500BDCA6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52D63BD1E8A22C500BDCA6C /* UIKit.framework */; };
 		E52D63C01E8A22CE00BDCA6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52D63BF1E8A22CE00BDCA6C /* Foundation.framework */; };
-		E52D63C31E8A24AE00BDCA6C /* photoBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E52D63C11E8A24AE00BDCA6C /* photoBtn@2x.png */; };
-		E52D63C41E8A24AE00BDCA6C /* startBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E52D63C21E8A24AE00BDCA6C /* startBtn@2x.png */; };
 		E5E588FB1E8A415B0000BB63 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588D31E8A415B0000BB63 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5E588FC1E8A415B0000BB63 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588D61E8A415B0000BB63 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5E588FD1E8A415B0000BB63 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588D81E8A415B0000BB63 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -58,6 +56,8 @@
 		E5E5891C1E8A43E10000BB63 /* StarCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E589141E8A43E10000BB63 /* StarCacheModel.m */; };
 		E5E5891D1E8A43E10000BB63 /* UserInfoCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E589161E8A43E10000BB63 /* UserInfoCacheModel.m */; };
 		E5E5891E1E8A43E10000BB63 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E589181E8A43E10000BB63 /* UserModel.m */; };
+		E5E589211E8A444C0000BB63 /* photoBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E5891F1E8A444C0000BB63 /* photoBtn@2x.png */; };
+		E5E589221E8A444C0000BB63 /* startBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5E589201E8A444C0000BB63 /* startBtn@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,8 +117,6 @@
 		E52D63BB1E8A22BD00BDCA6C /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 		E52D63BD1E8A22C500BDCA6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E52D63BF1E8A22CE00BDCA6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E52D63C11E8A24AE00BDCA6C /* photoBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photoBtn@2x.png"; sourceTree = "<group>"; };
-		E52D63C21E8A24AE00BDCA6C /* startBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startBtn@2x.png"; sourceTree = "<group>"; };
 		E5E5889F1E8A3CE80000BB63 /* NewRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E588D21E8A415B0000BB63 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		E5E588D31E8A415B0000BB63 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
@@ -173,6 +171,8 @@
 		E5E589161E8A43E10000BB63 /* UserInfoCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoCacheModel.m; sourceTree = "<group>"; };
 		E5E589171E8A43E10000BB63 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		E5E589181E8A43E10000BB63 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		E5E5891F1E8A444C0000BB63 /* photoBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photoBtn@2x.png"; sourceTree = "<group>"; };
+		E5E589201E8A444C0000BB63 /* startBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startBtn@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +212,8 @@
 		E51E49111E89D8CE00A773B7 = {
 			isa = PBXGroup;
 			children = (
+				E5E5891F1E8A444C0000BB63 /* photoBtn@2x.png */,
+				E5E589201E8A444C0000BB63 /* startBtn@2x.png */,
 				E52D63491E8A212E00BDCA6C /* ThirdParty */,
 				E52D637A1E8A212E00BDCA6C /* UTILS */,
 				E51E491C1E89D8CE00A773B7 /* NewRecorder */,
@@ -242,8 +244,6 @@
 			isa = PBXGroup;
 			children = (
 				E51E491E1E89D8CE00A773B7 /* main.m */,
-				E52D63C11E8A24AE00BDCA6C /* photoBtn@2x.png */,
-				E52D63C21E8A24AE00BDCA6C /* startBtn@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -473,11 +473,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52D63C41E8A24AE00BDCA6C /* startBtn@2x.png in Resources */,
 				E51E492D1E89D8CE00A773B7 /* LaunchScreen.storyboard in Resources */,
 				E51E492A1E89D8CE00A773B7 /* Assets.xcassets in Resources */,
+				E5E589221E8A444C0000BB63 /* startBtn@2x.png in Resources */,
+				E5E589211E8A444C0000BB63 /* photoBtn@2x.png in Resources */,
 				E51E49281E89D8CE00A773B7 /* Main.storyboard in Resources */,
-				E52D63C31E8A24AE00BDCA6C /* photoBtn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
