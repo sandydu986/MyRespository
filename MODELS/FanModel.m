@@ -72,11 +72,11 @@ static FanModel * instance;
 }
 
 - (NSString *)getEventNameWithID:(NSInteger)_id {
-    return [events objectForKey:[NSString stringWithFormat:@"%d", _id]];
+    return [events objectForKey:[NSString stringWithFormat:@"%ld", (long)_id]];
 }
 
 - (void)registerEvent: (NSString *)name id:(NSInteger)_id {
-    NSString *key = [NSString stringWithFormat:@"%d", _id];
+    NSString *key = [NSString stringWithFormat:@"%ld", (long)_id];
     if (![events objectForKey:key]) {
         [events setObject:[NSMutableArray array] forKey:key];
     }

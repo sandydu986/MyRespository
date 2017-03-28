@@ -17,6 +17,7 @@
 @property AVAudioPlayer *player;
 @property UIProgressView *progress;
 @property UILabel *progress_Time_label;
+@property Commont_Utils *utils;
 
 @end
 
@@ -29,6 +30,7 @@
 @synthesize player;
 @synthesize progress;
 @synthesize progress_Time_label;
+@synthesize utils;
 
 
 - (void)viewDidLoad {
@@ -82,9 +84,9 @@
     /*初始化录音文件*/
     [self audio];
     /*请求网络*/
-//    utils = [[Commont_Utils alloc]init ];
-//    utils.delegate = self;
-//    [utils httpRequstStart: BasicURL andIndex:1];
+    utils = [[Commont_Utils alloc]init ];
+    utils.delegate = self;
+    [utils httpRequstStart: BasicURL andIndex:1];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -168,6 +170,13 @@
     //    myrecord.delegate = self;
 }
 
+/*网络返回*/
+- (void)asyncDownSuccess:(NSMutableDictionary *)responseDic response:(NSString *)responseStr andIndex:(NSInteger)index{
+    NSLog(@"Sccuss........%@",responseDic);
+}
+- (void)asyncDownFail:(NSMutableDictionary *)responseDic andIndex:(NSInteger)index{
+    NSLog(@"Fail........");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
