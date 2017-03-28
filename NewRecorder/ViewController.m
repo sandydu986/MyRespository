@@ -17,6 +17,7 @@
 @property AVAudioPlayer *player;
 @property UIProgressView *progress;
 @property UILabel *progress_Time_label;
+@property Commont_Utils *utils;
 
 @end
 

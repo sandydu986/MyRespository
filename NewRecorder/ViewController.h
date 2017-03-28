@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Commont_Utils.h"
 
 @interface ViewController : UIViewController <Commont_UtilsDelegate>
 
