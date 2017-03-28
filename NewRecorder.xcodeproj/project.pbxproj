@@ -34,12 +34,6 @@
 		E52D63C01E8A22CE00BDCA6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52D63BF1E8A22CE00BDCA6C /* Foundation.framework */; };
 		E52D63C31E8A24AE00BDCA6C /* photoBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E52D63C11E8A24AE00BDCA6C /* photoBtn@2x.png */; };
 		E52D63C41E8A24AE00BDCA6C /* startBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E52D63C21E8A24AE00BDCA6C /* startBtn@2x.png */; };
-		E5E588AC1E8A3F3E0000BB63 /* FanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588A11E8A3F3E0000BB63 /* FanModel.m */; };
-		E5E588AD1E8A3F3E0000BB63 /* ItemCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588A31E8A3F3E0000BB63 /* ItemCacheModel.m */; };
-		E5E588AE1E8A3F3E0000BB63 /* openUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588A51E8A3F3E0000BB63 /* openUDID.m */; };
-		E5E588AF1E8A3F3E0000BB63 /* StarCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588A71E8A3F3E0000BB63 /* StarCacheModel.m */; };
-		E5E588B01E8A3F3E0000BB63 /* UserInfoCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588A91E8A3F3E0000BB63 /* UserInfoCacheModel.m */; };
-		E5E588B11E8A3F3E0000BB63 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588AB1E8A3F3E0000BB63 /* UserModel.m */; };
 		E5E588FB1E8A415B0000BB63 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588D31E8A415B0000BB63 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5E588FC1E8A415B0000BB63 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588D61E8A415B0000BB63 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5E588FD1E8A415B0000BB63 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588D81E8A415B0000BB63 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -58,6 +52,12 @@
 		E5E5890A1E8A415B0000BB63 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588F61E8A415B0000BB63 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5E5890B1E8A415B0000BB63 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588F81E8A415B0000BB63 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5E5890C1E8A415B0000BB63 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E588FA1E8A415B0000BB63 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E5E589191E8A43E10000BB63 /* FanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E5890E1E8A43E10000BB63 /* FanModel.m */; };
+		E5E5891A1E8A43E10000BB63 /* ItemCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E589101E8A43E10000BB63 /* ItemCacheModel.m */; };
+		E5E5891B1E8A43E10000BB63 /* openUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E589121E8A43E10000BB63 /* openUDID.m */; };
+		E5E5891C1E8A43E10000BB63 /* StarCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E589141E8A43E10000BB63 /* StarCacheModel.m */; };
+		E5E5891D1E8A43E10000BB63 /* UserInfoCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E589161E8A43E10000BB63 /* UserInfoCacheModel.m */; };
+		E5E5891E1E8A43E10000BB63 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E589181E8A43E10000BB63 /* UserModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,18 +120,6 @@
 		E52D63C11E8A24AE00BDCA6C /* photoBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photoBtn@2x.png"; sourceTree = "<group>"; };
 		E52D63C21E8A24AE00BDCA6C /* startBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startBtn@2x.png"; sourceTree = "<group>"; };
 		E5E5889F1E8A3CE80000BB63 /* NewRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5E588A01E8A3F3E0000BB63 /* FanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanModel.h; sourceTree = "<group>"; };
-		E5E588A11E8A3F3E0000BB63 /* FanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanModel.m; sourceTree = "<group>"; };
-		E5E588A21E8A3F3E0000BB63 /* ItemCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCacheModel.h; sourceTree = "<group>"; };
-		E5E588A31E8A3F3E0000BB63 /* ItemCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCacheModel.m; sourceTree = "<group>"; };
-		E5E588A41E8A3F3E0000BB63 /* openUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openUDID.h; sourceTree = "<group>"; };
-		E5E588A51E8A3F3E0000BB63 /* openUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openUDID.m; sourceTree = "<group>"; };
-		E5E588A61E8A3F3E0000BB63 /* StarCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarCacheModel.h; sourceTree = "<group>"; };
-		E5E588A71E8A3F3E0000BB63 /* StarCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarCacheModel.m; sourceTree = "<group>"; };
-		E5E588A81E8A3F3E0000BB63 /* UserInfoCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoCacheModel.h; sourceTree = "<group>"; };
-		E5E588A91E8A3F3E0000BB63 /* UserInfoCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoCacheModel.m; sourceTree = "<group>"; };
-		E5E588AA1E8A3F3E0000BB63 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
-		E5E588AB1E8A3F3E0000BB63 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		E5E588D21E8A415B0000BB63 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		E5E588D31E8A415B0000BB63 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		E5E588D41E8A415B0000BB63 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -173,6 +161,18 @@
 		E5E588F81E8A415B0000BB63 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		E5E588F91E8A415B0000BB63 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		E5E588FA1E8A415B0000BB63 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		E5E5890D1E8A43E10000BB63 /* FanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanModel.h; sourceTree = "<group>"; };
+		E5E5890E1E8A43E10000BB63 /* FanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanModel.m; sourceTree = "<group>"; };
+		E5E5890F1E8A43E10000BB63 /* ItemCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCacheModel.h; sourceTree = "<group>"; };
+		E5E589101E8A43E10000BB63 /* ItemCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCacheModel.m; sourceTree = "<group>"; };
+		E5E589111E8A43E10000BB63 /* openUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openUDID.h; sourceTree = "<group>"; };
+		E5E589121E8A43E10000BB63 /* openUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openUDID.m; sourceTree = "<group>"; };
+		E5E589131E8A43E10000BB63 /* StarCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarCacheModel.h; sourceTree = "<group>"; };
+		E5E589141E8A43E10000BB63 /* StarCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarCacheModel.m; sourceTree = "<group>"; };
+		E5E589151E8A43E10000BB63 /* UserInfoCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoCacheModel.h; sourceTree = "<group>"; };
+		E5E589161E8A43E10000BB63 /* UserInfoCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoCacheModel.m; sourceTree = "<group>"; };
+		E5E589171E8A43E10000BB63 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		E5E589181E8A43E10000BB63 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +212,6 @@
 		E51E49111E89D8CE00A773B7 = {
 			isa = PBXGroup;
 			children = (
-				E52D633C1E8A212E00BDCA6C /* MODELS */,
 				E52D63491E8A212E00BDCA6C /* ThirdParty */,
 				E52D637A1E8A212E00BDCA6C /* UTILS */,
 				E51E491C1E89D8CE00A773B7 /* NewRecorder */,
@@ -265,25 +264,6 @@
 				E51E49441E89D8CE00A773B7 /* Info.plist */,
 			);
 			path = NewRecorderUITests;
-			sourceTree = "<group>";
-		};
-		E52D633C1E8A212E00BDCA6C /* MODELS */ = {
-			isa = PBXGroup;
-			children = (
-				E5E588A01E8A3F3E0000BB63 /* FanModel.h */,
-				E5E588A11E8A3F3E0000BB63 /* FanModel.m */,
-				E5E588A21E8A3F3E0000BB63 /* ItemCacheModel.h */,
-				E5E588A31E8A3F3E0000BB63 /* ItemCacheModel.m */,
-				E5E588A41E8A3F3E0000BB63 /* openUDID.h */,
-				E5E588A51E8A3F3E0000BB63 /* openUDID.m */,
-				E5E588A61E8A3F3E0000BB63 /* StarCacheModel.h */,
-				E5E588A71E8A3F3E0000BB63 /* StarCacheModel.m */,
-				E5E588A81E8A3F3E0000BB63 /* UserInfoCacheModel.h */,
-				E5E588A91E8A3F3E0000BB63 /* UserInfoCacheModel.m */,
-				E5E588AA1E8A3F3E0000BB63 /* UserModel.h */,
-				E5E588AB1E8A3F3E0000BB63 /* UserModel.m */,
-			);
-			path = MODELS;
 			sourceTree = "<group>";
 		};
 		E52D63491E8A212E00BDCA6C /* ThirdParty */ = {
@@ -354,6 +334,18 @@
 				E52D63891E8A212E00BDCA6C /* NSString+urlEncode.m */,
 				E52D638A1E8A212E00BDCA6C /* TapTabBarItemView.h */,
 				E52D638B1E8A212E00BDCA6C /* TapTabBarItemView.m */,
+				E5E5890D1E8A43E10000BB63 /* FanModel.h */,
+				E5E5890E1E8A43E10000BB63 /* FanModel.m */,
+				E5E5890F1E8A43E10000BB63 /* ItemCacheModel.h */,
+				E5E589101E8A43E10000BB63 /* ItemCacheModel.m */,
+				E5E589111E8A43E10000BB63 /* openUDID.h */,
+				E5E589121E8A43E10000BB63 /* openUDID.m */,
+				E5E589131E8A43E10000BB63 /* StarCacheModel.h */,
+				E5E589141E8A43E10000BB63 /* StarCacheModel.m */,
+				E5E589151E8A43E10000BB63 /* UserInfoCacheModel.h */,
+				E5E589161E8A43E10000BB63 /* UserInfoCacheModel.m */,
+				E5E589171E8A43E10000BB63 /* UserModel.h */,
+				E5E589181E8A43E10000BB63 /* UserModel.m */,
 			);
 			path = UTILS;
 			sourceTree = "<group>";
@@ -511,10 +503,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51E49251E89D8CE00A773B7 /* ViewController.m in Sources */,
+				E5E589191E8A43E10000BB63 /* FanModel.m in Sources */,
 				E5E5890A1E8A415B0000BB63 /* SBJsonBase.m in Sources */,
 				E5E588FF1E8A415B0000BB63 /* ASIFormDataRequest.m in Sources */,
 				E52D63A91E8A212E00BDCA6C /* Common_param.m in Sources */,
+				E5E5891D1E8A43E10000BB63 /* UserInfoCacheModel.m in Sources */,
 				E51E49221E89D8CE00A773B7 /* AppDelegate.m in Sources */,
+				E5E5891A1E8A43E10000BB63 /* ItemCacheModel.m in Sources */,
 				E5E589051E8A415B0000BB63 /* FMDatabasePool.m in Sources */,
 				E5E589061E8A415B0000BB63 /* FMDatabaseQueue.m in Sources */,
 				E52D63A71E8A212E00BDCA6C /* CheckNetwork.m in Sources */,
@@ -523,7 +518,9 @@
 				E52D63AB1E8A212E00BDCA6C /* Commont_Utils.m in Sources */,
 				E52D63AD1E8A212E00BDCA6C /* TapTabBarItemView.m in Sources */,
 				E5E589071E8A415B0000BB63 /* FMResultSet.m in Sources */,
+				E5E5891E1E8A43E10000BB63 /* UserModel.m in Sources */,
 				E5E5890C1E8A415B0000BB63 /* SBJsonWriter.m in Sources */,
+				E5E5891C1E8A43E10000BB63 /* StarCacheModel.m in Sources */,
 				E52D63AA1E8A212E00BDCA6C /* CommonFunctions.m in Sources */,
 				E5E589021E8A415B0000BB63 /* ASINetworkQueue.m in Sources */,
 				E5E589031E8A415B0000BB63 /* FMDatabase.m in Sources */,
@@ -531,20 +528,15 @@
 				E5E588FC1E8A415B0000BB63 /* ASIDataCompressor.m in Sources */,
 				E5E588FD1E8A415B0000BB63 /* ASIDataDecompressor.m in Sources */,
 				E52D63A81E8A212E00BDCA6C /* CheckVersion.m in Sources */,
-				E5E588AC1E8A3F3E0000BB63 /* FanModel.m in Sources */,
 				E5E589091E8A415B0000BB63 /* SBJSON.m in Sources */,
-				E5E588B11E8A3F3E0000BB63 /* UserModel.m in Sources */,
 				E5E589041E8A415B0000BB63 /* FMDatabaseAdditions.m in Sources */,
-				E5E588B01E8A3F3E0000BB63 /* UserInfoCacheModel.m in Sources */,
 				E5E589001E8A415B0000BB63 /* ASIHTTPRequest.m in Sources */,
-				E5E588AE1E8A3F3E0000BB63 /* openUDID.m in Sources */,
 				E5E5890B1E8A415B0000BB63 /* SBJsonParser.m in Sources */,
 				E5E589081E8A415B0000BB63 /* Reachability.m in Sources */,
 				E5E588FB1E8A415B0000BB63 /* ASIAuthenticationDialog.m in Sources */,
+				E5E5891B1E8A43E10000BB63 /* openUDID.m in Sources */,
 				E5E588FE1E8A415B0000BB63 /* ASIDownloadCache.m in Sources */,
-				E5E588AF1E8A3F3E0000BB63 /* StarCacheModel.m in Sources */,
 				E52D63AC1E8A212E00BDCA6C /* NSString+urlEncode.m in Sources */,
-				E5E588AD1E8A3F3E0000BB63 /* ItemCacheModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
