@@ -109,6 +109,7 @@
         NSLog(@"play recording?");
         [startBtn setBackgroundImage:[UIImage imageNamed:@"startBtn"] forState:UIControlStateNormal];
         [myrecord stop];
+        
         //        slider.maximumValue = myrecord.accessibilityElementCount;
         //        slider.value = myrecord.accessibilityElementCount;
         
@@ -159,6 +160,7 @@
      }
      }
      */
+    
     //初始化
     myrecord = [[AVAudioRecorder alloc]initWithURL:url settings:recordSetting error:&error];
     //开启音量检测
